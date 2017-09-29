@@ -1,12 +1,14 @@
 body {
     background-color: #fff;
     height: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn-primary {
     background-color: #ec011e;
     border-radius: 50px;
     border: 0;
+    padding: .7rem 2rem;
 }
 
 .btn-primary:hover {
@@ -19,6 +21,13 @@ body {
     height: 100vh;
     justify-content: center;
 }
+
+@media screen and (max-width: 992px) {
+    .iphoneContainer {
+        height: 80vh;
+    }
+}
+
 
 .vertical-center {
     display: flex;
@@ -35,19 +44,33 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
-    width: 100%;
+    width: 92%;
     position: relative;
 }
+
 video {
     width: 90%;
     max-width: 100%;
     height: auto;
-    margin:0 auto;
+    margin: 0 auto;
 }
+
 @media screen and (max-width: 992px) {
     .iphone {
-        width: 58%;
-        margin:0 auto;
+        width: 41%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .iphone {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .iphone {
+        width: 68%;
     }
 }
 
@@ -68,15 +91,6 @@ video {
 
 .text {
     color: #ccc;
-    font-size: .8em;
+    font-size: .9em;
     margin-top: 1em;
-}
-
-
-
-@media screen and (max-width: 992px) {
-    .m-b-4 {
-
-        margin-bottom: 4em;
-    }
 }
