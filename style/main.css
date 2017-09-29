@@ -47,13 +47,27 @@ body {
 .iphoneContainer {
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 60em;
     justify-content: center;
 }
-
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1800px) {
     .iphoneContainer {
-        height: 80vh;
+       height: 50em;
+    }
+}
+@media screen and (max-width: 488px) {
+    .iphoneContainer {
+        height: 39em;
+    }
+}
+@media screen and (max-width: 421px) {
+    .iphoneContainer {
+        height: 34em;
+    }
+}
+@media screen and (max-width: 368px) {
+    .iphoneContainer {
+        height: 26em;
     }
 }
 @media screen and (max-width: 992px) {
@@ -114,6 +128,11 @@ video {
 
 .title {
     font-size: 2em;
+}
+@media screen and (max-width: 1025px) {
+   .title {
+    font-size: 1.6em;
+}
 }
 
 .icon-chat {
