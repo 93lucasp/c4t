@@ -67,7 +67,7 @@ body {
 }
 @media screen and (max-width: 368px) {
     .iphoneContainer {
-        height: 26em;
+        height: 29em;
     }
 }
 @media screen and (max-width: 992px) {
