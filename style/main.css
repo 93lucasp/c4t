@@ -1,9 +1,38 @@
 body {
-    background-color: red;
+    background-color: #fff;
     height: 100%;
     font-family: 'Poppins', sans-serif;
 }
+.cookies {
+    width: 90%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    left: 5%;
+    right: 5%;
+    background-color: #cb0119;
+    border-radius: 5px;
+    color: #fff;
+    padding: .4em 0;
 
+}
+.cookies .col-lg-10 {
+    display: flex;
+    align-items: center;
+}
+.cookies p {
+    margin: 0;
+    font-size: .7em;
+}
+.cookies button {
+    background-color: #fff;
+    color: #cb0119;
+    padding: .1rem 1rem;
+    font-size: .7em;
+}
+.cookies a {
+    color: #ddd;
+}
 .btn-primary {
     background-color: #ec011e;
     border-radius: 50px;
@@ -27,7 +56,11 @@ body {
         height: 80vh;
     }
 }
-
+@media screen and (max-width: 992px) {
+    .m-t-2 {
+        margin-top: 2em;
+    }
+}
 
 .vertical-center {
     display: flex;
@@ -36,7 +69,7 @@ body {
 }
 
 .iphone {
-    background-image: url('./images/iphone8.png');
+    background-image: url(../images/iphone8.png);
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
