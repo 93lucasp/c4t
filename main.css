@@ -1,0 +1,82 @@
+body {
+    background-color: #fff;
+    height: 100%;
+}
+
+.btn-primary {
+    background-color: #ec011e;
+    border-radius: 50px;
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: #cb0119;
+}
+
+.iphoneContainer {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iphone {
+    background-image: url(iphone8.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+video {
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    margin:0 auto;
+}
+@media screen and (max-width: 992px) {
+    .iphone {
+        width: 58%;
+        margin:0 auto;
+    }
+}
+
+.bot {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    font-size: 2em;
+}
+
+.icon-chat {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.text {
+    color: #ccc;
+    font-size: .8em;
+    margin-top: 1em;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .m-b-4 {
+
+        margin-bottom: 4em;
+    }
+}
